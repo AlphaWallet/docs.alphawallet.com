@@ -1,0 +1,28 @@
+languageCode = 'en-us'
+theme = 'hugo-geekdoc'
+title = 'Alphawallet Docs'
+
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+disablePathToLower = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+# Needed for mermaid shortcodes
+[markup]
+[markup.goldmark.renderer]
+# Needed for mermaid shortcode
+unsafe = true
+[markup.tableOfContents]
+endLevel = 9
+startLevel = 1
+
+[taxonomies]
+tag = "tags"
+
+[minify]
+disableHTML = true
