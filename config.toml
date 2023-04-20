@@ -1,3 +1,4 @@
+baseURL = "https://docs.alphawallet.com/"
 languageCode = 'en-us'
 theme = 'hugo-geekdoc'
 title = 'Alphawallet Docs'
